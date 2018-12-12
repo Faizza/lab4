@@ -1,0 +1,152 @@
+*{
+	margin:0;
+	padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+	width: 100%;
+}
+header{
+	background-image: url('../img/header__background.jpg');
+	background-color: blue; 
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#head{
+	display: flex;
+	flex-direction: column;
+	height: 373px;
+    justify-content: inherit;
+    align-items: center;
+    width: 345px;
+}
+@font-face{
+	font-family: Catamaran;
+	src: url('../fonts/Catamaran-Medium.ttf');
+}
+p{
+	font-family:Catamaran;
+}
+#Talk{
+	font-size: 36px;
+	color: #2e3e3f; 
+	letter-spacing: 4px;
+	text-indent: 35px;
+}
+#reg{
+	width: 377px;
+	height: 400px;
+	background:#2e3e40;
+}
+input{
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.kn{
+	height: 35px;
+}
+#if{
+    margin-left: 26px;
+    margin-top: 11px;
+    color: white;
+    letter-spacing: 1px;
+}
+#reg_now{
+	width: 328px;
+	height: 40px;
+	margin-left: 26px;
+    margin-top: 11px;
+    background-color: OrangeRed;
+    border-color: OrangeRed;
+    font-family:Catamaran;
+    font-size:22pt;
+    color:#2e3e3f;
+    letter-spacing: 3px;
+    font-weight: 900;
+    line-height: 14px;
+}
+
+main{
+	height: 480px;
+}
+#fi,#irst,#st,#firsty{
+	color: #00a8b2;
+	font-size: 18px;
+	font-weight: 1000;
+}
+#first,#fir{
+	color: #00a8b2;
+	font-size: 34px;
+    font-weight: 1000;
+}
+#vtoroi{
+	display: flex;
+	justify-content: space-around;
+}
+#v1,#v2,#v3,#v4{
+	width: 200px;
+	text-align: center;
+}
+#perv{
+	text-align: center;
+	height:200px;
+	margin-top: 50px;
+}
+#fir{
+	margin-top: 25px;
+}
+#firs {
+    width: 50%;
+    margin-left: 25%;
+    text-align:start;
+}
+#foote{
+	width:100%;
+	height: 100px;
+	background: #1C1C1C;
+	display:flex;
+	justify-content: space-between;
+
+}
+#foot{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	margin-right: 80px;
+}
+#t1,#t2{
+	color:white;
+}
+#foot_logo{
+	margin: 20px 0 28px 33px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family: Catamaran;
+}
+#t1:before{
+	content: '';
+	width: 35px;
+	height: 3px;
+	background-color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+#t1:after{
+	content: '';
+	width: 35px;
+	height: 3px;
+	background-color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
